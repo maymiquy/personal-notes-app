@@ -2,13 +2,13 @@ import React from "react";
 import Header from "./components/Header";
 import FormSection from "./components/FormSection";
 import NoteSection from "./components/NoteSection";
-import { getData } from "./utils/data";
+import { getInitialData } from "./utils/data";
 
 class App extends React.Component {
  constructor(props) {
   super(props);
   this.state = {
-   data: getData(),
+   data: getInitialData(),
    search: "",
   };
 

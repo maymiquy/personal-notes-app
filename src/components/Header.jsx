@@ -2,7 +2,7 @@ import React from "react";
 
 function Header({ onSearch }) {
  return (
-  <nav className="bg-slate-800 border-b border-slate-900 px-5 sm:px-24 py-5">
+  <nav className="bg-slate-800 border-b border-slate-900 px-5 sm:px-16 py-5">
    <div className="container flex flex-wrap justify-between items-center mx-auto gap-5 sm:gap-0">
     <a href="/" className="flex items-center">
      <span className="text-zinc-300 font-bold text-2xl">Personal Notes</span>

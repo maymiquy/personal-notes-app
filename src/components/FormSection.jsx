@@ -42,8 +42,8 @@ class FormSection extends React.Component {
 
  render() {
   return (
-   <div className="content bg-slate-800 rounded-md text-gray-100 flex-center mx-8 my-4">
-    <form className="full-width px-4 sm:px-20 py-6 md:py-12" onSubmit={this.onSubmitEventHandler}>
+   <div className="content bg-slate-800 rounded-md text-gray-100 flex-center mx-10 my-4">
+    <form className="full-width px-4 sm:px-16 py-6 md:py-12" onSubmit={this.onSubmitEventHandler}>
      <h2 className="text-2xl text-center font-bold mb-8">Add Note</h2>
      <div className="mb-5">
       <label htmlFor="title" className="block mb-1 text-md font-semibold">
